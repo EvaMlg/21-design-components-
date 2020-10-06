@@ -1,5 +1,5 @@
 @mixin box-shadow{
-  box-shadow: 10px 5px 5px; grey;
+  box-shadow: 10px 5px 5px red;
   }
 
 form{
@@ -12,11 +12,13 @@ form{
   margin-top: 20%;
   margin-bottom: 20%;
   padding: 2%;
-  @include box-shadow;
+  box-shadow: 10px 5px 5px red;
 }
 
 
 input{
   font-size: 14px;
   height: 20px;
+  @include box-shadow;
+  
 }

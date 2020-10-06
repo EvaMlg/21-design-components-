@@ -1,0 +1,42 @@
+
+.card {
+  margin: 7px;
+}
+
+.image {
+  height: 290px;
+  width: 195px;
+  border: 1px solid whitesmoke;
+  background-image: url("https://picsum.photos/200/300");
+}
+
+.infos {
+  height: 75px;
+  width: 195px;
+  border:1px solid whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: space-between;
+    .price {
+      color : black;
+    }
+
+    .stars {
+      color : #46a697;
+      font-size: 12px;
+      display: inline-block;
+    }
+
+    .coms {
+      display: inline-block;
+      font-size: 13px;
+      justify-content: space-between;
+  }
+
+}
+
+.container {
+  height: 600px;
+  width: 1000px;
+  display: flex;
+  margin: 30px;
+}
