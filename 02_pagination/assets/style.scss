@@ -10,7 +10,10 @@
     padding: 15px;
     margin: 15px;
     width: 100%;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: auto;
 }
 
 @media (max-width: 768px) {
@@ -35,12 +38,3 @@ ul {
 li {display: inline;
     padding-left: 15px;
     padding-right:15px;}
-
-.signature {
-    display: inline-block;
-}
-
-.links {
-    display: inline-block;
-    margin-left: 50%;
-}

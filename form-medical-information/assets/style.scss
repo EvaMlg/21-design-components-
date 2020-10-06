@@ -1,0 +1,23 @@
+@mixin box-shadow{
+  box-shadow: 10px 5px 5px red;
+  }
+
+form{
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid grey;
+  height: 80%;
+  width: 80%;
+  margin-top: 20%;
+  margin-left: 10%;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  padding: 2%;
+}
+
+
+input{
+  font-size: 14px;
+  height: 20px;
+  @include box-shadow;
+  
+}
